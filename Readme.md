@@ -8,6 +8,4 @@ A grant to Accesbility for Dock application is needed to calculating position of
 
 ## Settings
 
-![settings](Assets/settings.png)
-
 Eye and fur color can be changed any time by pressing Dock icon, no restart required!
