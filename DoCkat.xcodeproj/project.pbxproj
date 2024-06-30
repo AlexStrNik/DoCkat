@@ -7,37 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9865A0C12C3188ED003CC3B4 /* Color+Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865A0C02C3188E9003CC3B4 /* Color+Raw.swift */; };
+		9865A0DF2C31A078003CC3B4 /* DoCkatPlugin.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9865A0DB2C31A05C003CC3B4 /* DoCkatPlugin.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98B2CEBF2C31AEA4002FA7BE /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865A0BC2C315BD5003CC3B4 /* CatView.swift */; };
+		98B2CEC12C31AEFC002FA7BE /* CatTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B2CEC02C31AEFA002FA7BE /* CatTileView.swift */; };
+		98B2CEC32C31B1EB002FA7BE /* CVTimeStamp+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DAE0CA2C31A617008BBBD5 /* CVTimeStamp+TimeInterval.swift */; };
+		98B2CEC42C31B1EB002FA7BE /* CVTimeStamp+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DAE0CA2C31A617008BBBD5 /* CVTimeStamp+TimeInterval.swift */; };
+		98DAE0C62C31A0D6008BBBD5 /* DoCkatTilePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865A0CA2C3198B7003CC3B4 /* DoCkatTilePlugin.swift */; };
+		98DAE0C72C31A0D6008BBBD5 /* DockElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865A0CD2C31994C003CC3B4 /* DockElement.swift */; };
+		98DAE0C82C31A0D6008BBBD5 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865A0BC2C315BD5003CC3B4 /* CatView.swift */; };
+		98DAE0C92C31A0E3008BBBD5 /* Color+Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865A0C02C3188E9003CC3B4 /* Color+Raw.swift */; };
+		98DAE0CC2C31A6BE008BBBD5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9865A0BA2C2F5AAA003CC3B4 /* ApplicationServices.framework */; };
 		98E3C1582C2ED12F008F130A /* DoCkatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C1572C2ED12F008F130A /* DoCkatApp.swift */; };
-		98E3C15A2C2ED12F008F130A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C1592C2ED12F008F130A /* ContentView.swift */; };
+		98E3C15A2C2ED12F008F130A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C1592C2ED12F008F130A /* SettingsView.swift */; };
 		98E3C15C2C2ED130008F130A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E3C15B2C2ED130008F130A /* Assets.xcassets */; };
 		98E3C15F2C2ED130008F130A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E3C15E2C2ED130008F130A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9865A0D32C319A6D003CC3B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9865A0DF2C31A078003CC3B4 /* DoCkatPlugin.plugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9865A0BA2C2F5AAA003CC3B4 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		9865A0BC2C315BD5003CC3B4 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		9865A0C02C3188E9003CC3B4 /* Color+Raw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Raw.swift"; sourceTree = "<group>"; };
+		9865A0CA2C3198B7003CC3B4 /* DoCkatTilePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCkatTilePlugin.swift; sourceTree = "<group>"; };
+		9865A0CD2C31994C003CC3B4 /* DockElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockElement.swift; sourceTree = "<group>"; };
+		9865A0CF2C3199B6003CC3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9865A0DB2C31A05C003CC3B4 /* DoCkatPlugin.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoCkatPlugin.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B2CEC02C31AEFA002FA7BE /* CatTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTileView.swift; sourceTree = "<group>"; };
+		98DAE0CA2C31A617008BBBD5 /* CVTimeStamp+TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVTimeStamp+TimeInterval.swift"; sourceTree = "<group>"; };
 		98E3C1542C2ED12F008F130A /* DoCkat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoCkat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E3C1572C2ED12F008F130A /* DoCkatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCkatApp.swift; sourceTree = "<group>"; };
-		98E3C1592C2ED12F008F130A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98E3C1592C2ED12F008F130A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		98E3C15B2C2ED130008F130A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E3C15E2C2ED130008F130A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98E3C1602C2ED130008F130A /* DoCkat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoCkat.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		98E3C1512C2ED12F008F130A /* Frameworks */ = {
+		9865A0D82C31A05C003CC3B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DAE0CC2C31A6BE008BBBD5 /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9865A0B92C2F5AAA003CC3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9865A0BA2C2F5AAA003CC3B4 /* ApplicationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9865A0BE2C3188DA003CC3B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9865A0C02C3188E9003CC3B4 /* Color+Raw.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9865A0BF2C3188E1003CC3B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98B2CEC02C31AEFA002FA7BE /* CatTileView.swift */,
+				9865A0BC2C315BD5003CC3B4 /* CatView.swift */,
+				98E3C1592C2ED12F008F130A /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9865A0CC2C319947003CC3B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				98DAE0CA2C31A617008BBBD5 /* CVTimeStamp+TimeInterval.swift */,
+				9865A0CD2C31994C003CC3B4 /* DockElement.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		98E3C14B2C2ED12F008F130A = {
 			isa = PBXGroup;
 			children = (
 				98E3C1562C2ED12F008F130A /* DoCkat */,
 				98E3C1552C2ED12F008F130A /* Products */,
+				9865A0B92C2F5AAA003CC3B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				98E3C1542C2ED12F008F130A /* DoCkat.app */,
+				9865A0DB2C31A05C003CC3B4 /* DoCkatPlugin.plugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +123,12 @@
 		98E3C1562C2ED12F008F130A /* DoCkat */ = {
 			isa = PBXGroup;
 			children = (
+				9865A0CF2C3199B6003CC3B4 /* Info.plist */,
+				9865A0CC2C319947003CC3B4 /* Utils */,
+				9865A0BE2C3188DA003CC3B4 /* Extensions */,
+				9865A0BF2C3188E1003CC3B4 /* Views */,
 				98E3C1572C2ED12F008F130A /* DoCkatApp.swift */,
-				98E3C1592C2ED12F008F130A /* ContentView.swift */,
+				9865A0CA2C3198B7003CC3B4 /* DoCkatTilePlugin.swift */,
 				98E3C15B2C2ED130008F130A /* Assets.xcassets */,
 				98E3C1602C2ED130008F130A /* DoCkat.entitlements */,
 				98E3C15D2C2ED130008F130A /* Preview Content */,
@@ -72,19 +147,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9865A0DA2C31A05C003CC3B4 /* DoCkatPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9865A0DC2C31A05C003CC3B4 /* Build configuration list for PBXNativeTarget "DoCkatPlugin" */;
+			buildPhases = (
+				9865A0D72C31A05C003CC3B4 /* Sources */,
+				9865A0D82C31A05C003CC3B4 /* Frameworks */,
+				9865A0D92C31A05C003CC3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoCkatPlugin;
+			productName = DoCkatPlugin;
+			productReference = 9865A0DB2C31A05C003CC3B4 /* DoCkatPlugin.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
 		98E3C1532C2ED12F008F130A /* DoCkat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98E3C1632C2ED130008F130A /* Build configuration list for PBXNativeTarget "DoCkat" */;
 			buildPhases = (
 				98E3C1502C2ED12F008F130A /* Sources */,
-				98E3C1512C2ED12F008F130A /* Frameworks */,
 				98E3C1522C2ED12F008F130A /* Resources */,
+				9865A0D32C319A6D003CC3B4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DoCkat;
+			packageProductDependencies = (
+			);
 			productName = DoCkat;
 			productReference = 98E3C1542C2ED12F008F130A /* DoCkat.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +193,9 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					9865A0DA2C31A05C003CC3B4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					98E3C1532C2ED12F008F130A = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -113,16 +210,26 @@
 				Base,
 			);
 			mainGroup = 98E3C14B2C2ED12F008F130A;
+			packageReferences = (
+			);
 			productRefGroup = 98E3C1552C2ED12F008F130A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98E3C1532C2ED12F008F130A /* DoCkat */,
+				9865A0DA2C31A05C003CC3B4 /* DoCkatPlugin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9865A0D92C31A05C003CC3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98E3C1522C2ED12F008F130A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +242,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9865A0D72C31A05C003CC3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DAE0C62C31A0D6008BBBD5 /* DoCkatTilePlugin.swift in Sources */,
+				98B2CEC42C31B1EB002FA7BE /* CVTimeStamp+TimeInterval.swift in Sources */,
+				98DAE0C72C31A0D6008BBBD5 /* DockElement.swift in Sources */,
+				98DAE0C92C31A0E3008BBBD5 /* Color+Raw.swift in Sources */,
+				98B2CEC12C31AEFC002FA7BE /* CatTileView.swift in Sources */,
+				98DAE0C82C31A0D6008BBBD5 /* CatView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98E3C1502C2ED12F008F130A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E3C15A2C2ED12F008F130A /* ContentView.swift in Sources */,
+				98B2CEC32C31B1EB002FA7BE /* CVTimeStamp+TimeInterval.swift in Sources */,
+				98E3C15A2C2ED12F008F130A /* SettingsView.swift in Sources */,
 				98E3C1582C2ED12F008F130A /* DoCkatApp.swift in Sources */,
+				9865A0C12C3188ED003CC3B4 /* Color+Raw.swift in Sources */,
+				98B2CEBF2C31AEA4002FA7BE /* CatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9865A0DD2C31A05C003CC3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = USDCL8J49X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.alexstrnik.DoCkatPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		9865A0DE2C31A05C003CC3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = USDCL8J49X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.alexstrnik.DoCkatPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
 		98E3C1612C2ED130008F130A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -199,11 +366,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -256,10 +428,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -271,21 +448,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DoCkat/DoCkat.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DoCkat/Preview Content\"";
+				DEVELOPMENT_TEAM = USDCL8J49X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoCkat/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.alexstrnik.DoCkat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -296,21 +479,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DoCkat/DoCkat.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DoCkat/Preview Content\"";
+				DEVELOPMENT_TEAM = USDCL8J49X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoCkat/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.alexstrnik.DoCkat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -318,6 +507,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9865A0DC2C31A05C003CC3B4 /* Build configuration list for PBXNativeTarget "DoCkatPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9865A0DD2C31A05C003CC3B4 /* Debug */,
+				9865A0DE2C31A05C003CC3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98E3C14F2C2ED12F008F130A /* Build configuration list for PBXProject "DoCkat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
