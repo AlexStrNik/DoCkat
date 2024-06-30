@@ -25,7 +25,7 @@ struct CatTileView: View {
 
             let pos = CGPoint(
                 x: iconPosition.midX,
-                y: iconPosition.midY - NSScreen.main!.visibleFrame.height
+                y: NSScreen.main!.frame.height - iconPosition.midY
             )
 
             return pos
