@@ -9,3 +9,7 @@ A grant to Accesbility for Dock application is needed to calculating position of
 ## Settings
 
 Eye and fur color can be changed any time by pressing Dock icon, no restart required!
+
+## Download
+
+You can always find latest version in Releases tab.
